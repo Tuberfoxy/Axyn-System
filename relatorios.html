@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Axyn | Relatórios</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="app-page">
+<aside class="sidebar"><a class="logo logo-light" href="dashboard.html"><span>〰</span> Axyn</a><nav><a href="dashboard.html">◫ <span>Dashboard</span></a><a href="monitoramento.html">◌ <span>Monitoramento</span></a><a class="active" href="relatorios.html">▤ <span>Relatórios</span></a><a href="configuracoes.html">⚙ <span>Configurações</span></a></nav><a class="logout" href="index.html">↪ Sair</a></aside>
+<main class="app-main"><header class="app-header"><div><span class="eyebrow">ANÁLISE DE DADOS</span><h1>Relatórios</h1><p>Visualize o histórico e o desempenho do seu sistema de filtragem.</p></div><button class="btn btn-dark">↓ Baixar relatório</button></header>
+<section class="report-cards"><div class="panel"><h3>Qualidade do ar</h3><div class="mini-chart"></div></div><div class="panel"><h3>Desempenho dos filtros</h3><div class="bars"><i></i><i></i><i></i><i></i><i></i></div></div><div class="panel"><h3>Média geral</h3><div class="circle-stat">92%</div></div></section>
+<section class="panel"><h2>Gerar relatório personalizado</h2><div class="report-form"><label>Data inicial<input type="date"></label><label>Data final<input type="date"></label><label>Tipo de relatório<select><option>Desempenho geral</option><option>Qualidade do ar</option><option>Manutenção</option></select></label><button class="btn btn-blue">Gerar relatório</button></div></section>
+</main><script src="script.js"></script>
+</body>
+</html>

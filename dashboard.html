@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Axyn | Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="app-page">
+<aside class="sidebar">
+<a class="logo logo-light" href="dashboard.html"><span>〰</span> Axyn</a>
+<nav><a class="active" href="dashboard.html">◫ <span>Dashboard</span></a><a href="monitoramento.html">◌ <span>Monitoramento</span></a><a href="relatorios.html">▤ <span>Relatórios</span></a><a href="configuracoes.html">⚙ <span>Configurações</span></a></nav>
+<a class="logout" href="index.html">↪ Sair</a>
+</aside>
+<main class="app-main">
+<header class="app-header"><div><span class="muted">26 de setembro de 2026</span><h1>Olá, Empresa!</h1><p>Acompanhe o desempenho dos seus sistemas de filtragem.</p></div><div class="account">◉ Empresa Exemplo⌄</div></header>
+<section class="metric-grid">
+<div class="metric"><span>Qualidade do ar</span><strong>Boa</strong><small>PM2.5: 12 μg/m³</small></div>
+<div class="metric"><span>Desempenho dos filtros</span><strong>92%</strong><small>em média</small></div>
+<div class="metric"><span>Equipamentos ativos</span><strong>5 / 5</strong><small>online</small></div>
+<div class="metric alert-metric"><span>Alertas</span><strong>2</strong><small>requer atenção</small></div>
+</section>
+<section class="dashboard-grid">
+<div class="panel chart-panel"><div class="panel-title"><h2>Desempenho dos filtros</h2><span>7 dias</span></div><div class="chart"><div class="chart-line line-a"></div><div class="chart-line line-b"></div><div class="chart-line line-c"></div></div><div class="legend"><span>Filtro 1</span><span>Filtro 2</span><span>Filtro 3</span></div></div>
+<div class="panel gauge-panel"><h2>Qualidade do ar</h2><div class="gauge"><strong>Boa</strong><span>PM2.5: 12 μg/m³</span></div><small>Excelente</small></div>
+</section>
+<section class="panel"><div class="panel-title"><h2>Últimos alertas</h2><a href="relatorios.html">Ver todos →</a></div><div class="table"><div class="table-row head"><span>Data</span><span>Equipamento</span><span>Mensagem</span><span>Status</span></div><div class="table-row"><span>26/09 14:32</span><span>Filtro 3</span><span>Manutenção recomendada</span><b class="status warning">Atenção</b></div><div class="table-row"><span>26/09 10:07</span><span>Filtro 1</span><span>Parâmetros normais</span><b class="status ok">Normal</b></div><div class="table-row"><span>25/09 16:03</span><span>Filtro 5</span><span>Trocar filtro em 3 dias</span><b class="status warning">Atenção</b></div></div></section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
